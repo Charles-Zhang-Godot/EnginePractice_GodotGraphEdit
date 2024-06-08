@@ -1236,6 +1236,7 @@ PackedVector2Array GraphEdit::get_connection_line(const Vector2 &p_from, const V
 		return ret;
 	}
 
+	// TODO: Make modifications here to implement new connection style
 	float x_diff = (p_to.x - p_from.x);
 	float cp_offset = x_diff * lines_curvature;
 	if (x_diff < 0) {
